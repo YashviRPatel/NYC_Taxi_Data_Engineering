@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: nyc_taxi       # Postgres database name
+    schema: raw              # schema in Postgres
+    tables:
+      - name: trip_zone      # the table name in Postgres
